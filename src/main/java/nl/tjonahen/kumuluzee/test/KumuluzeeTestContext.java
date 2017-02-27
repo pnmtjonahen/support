@@ -42,6 +42,6 @@ public @interface KumuluzeeTestContext {
      * 
      * @return persistence unit name 
      */
-    public String unitname() default "";
+    public String unitname();
 
 }
